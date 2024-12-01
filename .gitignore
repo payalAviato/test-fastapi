@@ -1,0 +1,50 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# Logs and temporary files
+*.log
+*.sqlite3
+*.db
+*.pid
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Python packaging files
+*.egg-info/
+dist/
+build/
+*.egg
+*.wheel
+
+# Dependency management
+Pipfile
+Pipfile.lock
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+.coverage.*
+
+# Static files and media (if applicable)
+static/
+media/
+
+# Docker files (if applicable)
+*.dockerfile
+docker-compose.override.yml
